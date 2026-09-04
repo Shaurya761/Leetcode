@@ -1,15 +1,15 @@
 class Solution {
     public void reverseString(char[] s) {
-        reverseHelper(s, 0, s.length - 1);
+        reverseHelper(s, 0);
 
     }
-    private void reverseHelper(char[] s, int left, int right) {
-            if(left >= right) return;
+    private void reverseHelper(char[] s, int i) {
+            if(i >= s.length/2) return;
 
-            char temp = s[left];
-            s[left] = s[right];
-            s[right] = temp;
+            char temp = s[i];
+            s[i] = s[s.length - 1 - i];
+            s[s.length - 1 - i] = temp;
 
-            reverseHelper(s, left+1, right-1);   
+            reverseHelper(s, i + 1);   
     }
 }
