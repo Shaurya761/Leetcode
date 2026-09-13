@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Shaurya761/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/Shaurya761/Leetcode/tree/master/0051-n-queens) |
+| [1470-shuffle-the-array](https://github.com/Shaurya761/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Shaurya761/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1929-concatenation-of-array](https://github.com/Shaurya761/Leetcode/tree/master/1929-concatenation-of-array) |
 ## Backtracking
