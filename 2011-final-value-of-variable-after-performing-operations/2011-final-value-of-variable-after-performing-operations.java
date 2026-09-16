@@ -1,13 +1,15 @@
 class Solution {
     public int finalValueAfterOperations(String[] operations) {
-        int x = 0;
-        for(String op : operations) {
-            if(op.contains("+")) {
-               x++;
+        int X = 0;
+        for(int i = 0; i < operations.length; i++) {
+            int sum = 0;
+            if(operations[i].equals("++X") || operations[i].equals("X++")) {
+               X++;
             } else {
-               x--;
+               X--;
             }
+            sum += X;
         }
-        return x;
+        return X;
     }
 }
